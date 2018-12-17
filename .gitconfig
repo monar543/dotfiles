@@ -1,0 +1,116 @@
+[user]
+  name=RaR
+  email=robles.ra543@gmail.com
+  username=monar543
+[core]
+  editor=vim
+  excludesfile=~/.gitignore
+[web]
+  browser=firefox
+[color]
+  ui=auto
+[color "branch"]
+  current=yellow bold
+  frag=magenta bold
+  old=red bold
+  new=green bold
+  whitespace=red reverse
+[color "status"]
+  added=green bold
+  changed = yellow bold
+  unatracked=red reverse
+[diff]
+  tool = vindiff
+[github]
+  user=monar543
+  token=token
+[alias]
+  a=add --all
+  ai=add -i
+  ###############################
+  ap=apply
+  as=apply --stat
+  ac=apply --check
+  ###############################
+  ama=am --abort
+  amr=am --resolved
+  ams=am --skip
+  ###############################
+  b=branch
+  ba=branch -a
+  bd=branch -d
+  bdd=branch -D
+  br=branch -r
+  ###############################
+  c=commit
+  ca=commit -a
+  cm=commit -m
+  cam=commit -am
+  cem=commit --allow-empty -m
+  cd=commit --amend
+  cad=commit -a --amend
+  ###############################
+  cl=clone
+  ###############################
+  cp=cherry-pick
+  cpa=cherry-pick --abort
+  ###############################
+  d=diff
+  dp=diff --patience
+  dc=diff --cached
+  dk=diff --check
+  ###############################
+  f=fetch
+  fo=fetch origin
+  ###############################
+  g=grep -p
+  ###############################
+  l=log --oneline
+  lg=log --oneline --graph --decorate
+  ###############################
+  ls=ls-files
+  lsf=!git ls-files | grep -i
+  ###############################
+  m=merge
+  ma=merge --abort
+  mc=merge --continue
+  ms=merge --skip
+  ###############################
+  o=checkout
+  ob=checkout -b
+  ###############################
+  pr=prune -v
+  ###############################
+  pu=push
+  ps=push
+  pf=push -f
+  psu=push -u
+  pst=push --tags
+  ###############################
+  pso=push origin
+  psao=push --all origin
+  psfo=push -f origin
+  ###############################
+  psom=push origin master
+  psuom=push -u origin master
+  ###############################
+  pl=pull
+  pb=pull --rabase
+  ###############################
+  re=reset
+  rh=reset HEAD
+  reh=reset --hard
+  rehh=reset --hard HEAD
+  ###############################
+  r=remote
+  ra=remote add
+  rr=remote rm
+  rao=remote add origin
+  rro=remote remove origin
+  ###############################
+  s=status
+  sb=status -s -b
+  ###############################
+  t=tag
+  ###############################
+  w=show
