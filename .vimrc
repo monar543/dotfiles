@@ -24,6 +24,8 @@ Plug 'mxw/vim-jsx'
 Plug 'epilande/vim-react-snippets'
 Plug 'SirVer/ultisnips'
 Plug 'ap/vim-css-color'
+Plug 'jacoborus/tender.vim'
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
 
@@ -45,6 +47,10 @@ filetype indent on
 syntax enable
 set t_CO=256
 set background=dark
+colorscheme tender
+set laststatus=2
+
+" NUM LINE:
 set nu
 
 " ENCODING:
